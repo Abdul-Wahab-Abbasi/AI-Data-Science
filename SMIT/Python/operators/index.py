@@ -77,3 +77,77 @@ print(z)  # 12
 # Example: assign while checking condition
 if (n := 5) > 3:
     print(n)  # 5
+
+#######################
+# Comparision OPERATORS
+#######################
+x = 2
+y = 6
+a = "SMIT"
+b = "HYD"
+
+# 1. ==
+print(x == y)
+# 2. !=
+print(x != y)
+# 3. >
+print(x > y)
+# 4. <
+print(x < y)
+# 5. >=
+print(x >= y)
+# 6. <=
+print(x <= y)
+
+# with string
+# 1. ==
+print(a == b)
+# 2. !=
+print(a != b)
+# 3. >
+print(a > b)
+# 4. <
+print(a < b)
+# 5. >=
+print(a >= b)
+# 6. <=
+print(a <= b)
+
+#######################
+# Logical OPERATORS
+#######################
+x = True
+y = False
+
+print(x and y)   # False: both must be True
+print(x or y)    # True: at least one True
+print(not x)     # False: negation
+print(not y)     # True
+
+# mixing with comparisons
+a = 5
+b = 10
+print(a < b and b < 20)   # True
+print(a > b or b < 20)    # True
+
+#######################
+# Identity OPERATORS
+#######################
+p = [1, 2, 3]
+q = p
+r = [1, 2, 3]
+
+print(p is q)      # True: same object
+print(p is r)      # False: different objects with same contents
+print(p is not r)  # True
+
+#######################
+# Membership OPERATORS
+#######################
+s = "hello"
+t = [1, 2, 3]
+
+print('h' in s)       # True
+print('z' not in s)   # True
+print(2 in t)         # True
+print(4 not in t)     # True

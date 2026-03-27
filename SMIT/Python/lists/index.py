@@ -67,3 +67,9 @@ del thisList3[0] # The del keyword also removes the specified index
 print(thisList3)
 
 del thisList3 # The del keyword can also delete the list completely.
+
+# Join lists using extend
+countries = ["Pakistan", "China", "Iran", "Turkey", "Saudi Arabia"]
+capitals = ["Islamabad", "Beijing", "Tehran", "Ankara", "Riyadh"]
+countries.extend(capitals)
+print(countries)

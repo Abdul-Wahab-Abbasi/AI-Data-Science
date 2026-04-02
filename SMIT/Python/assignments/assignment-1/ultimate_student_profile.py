@@ -53,9 +53,8 @@ for std in students:
          ...
     """)
 
+print("\t===== STUDENT SUMMARY =====")
 for std in students:
     print(f"""
-          ===== STUDENT SUMMARY =====
-          {std[1]} \t \t Age+5: {std[2] + 5} Total: {std[6]+std[7]} Complex: {complex(std[2],std[5])} \n
-          
+          {std[1]} \t \t Age+5: {std[2] + 5} Total: {std[6]+std[7]} Complex: {complex(std[2],std[5])}
     """)

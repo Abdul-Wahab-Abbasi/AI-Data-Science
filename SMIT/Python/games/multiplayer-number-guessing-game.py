@@ -12,14 +12,7 @@ player2Name = input("Enter name for player 2: ").capitalize()
 
 
 difficulty = input("Enter difficulty [Easy, Medium, Hard]: ").lower()
-if difficulty == "easy":
-    secretNo = random.randint(1,10)
-    player1Chances = 3
-    player2Chances = 3
-    player1hints = 2
-    player2hints = 2
-    _range = "1-10"
-elif difficulty == "medium":
+if difficulty == "medium":
     secretNo = random.randint(1,20)
     player1Chances = 4
     player2Chances = 4
@@ -34,7 +27,8 @@ elif difficulty == "hard":
     player2hints = 2
     _range = "1-50"
 else:
-    print("Invalid difficulty level. Defaulting to Easy.")
+    if difficulty != 'easy':
+        print("Invalid difficulty level. Defaulting to Easy.")
     secretNo = random.randint(1,10)
     player1Chances = 3
     player2Chances = 3

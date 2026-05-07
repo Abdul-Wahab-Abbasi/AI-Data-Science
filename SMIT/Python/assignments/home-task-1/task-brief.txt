@@ -1,0 +1,82 @@
+Home Assignment (Submission Task)
+
+Dear Students,
+
+You are required to develop a complete Python program using all the concepts we have covered so far.
+
+---
+
+📝 Task Title: Student Management System (Complete Program)
+
+Create a menu-driven program that uses:
+
+✅ If-Else Conditions
+✅ String Methods
+✅ Lists
+✅ Tuples
+✅ Dictionaries
+
+---
+
+🔹 Program Requirements:
+
+1. Create a main dictionary to store students data.
+
+2. Each student record must include:
+   
+   - Name (use string methods like "title()", "upper()", etc.)
+   - Roll Number
+   - Marks (store in list)
+   - Subjects (store in tuple)
+
+---
+
+🔹 Features (Must Include):
+
+1️⃣ Add Student
+
+- Take input from user
+- Apply string methods on name
+
+2️⃣ Display All Students
+
+- Show all records properly
+
+3️⃣ Search Student
+
+- Search by roll number using if-else
+
+4️⃣ Update Student
+
+- Update marks or name
+
+5️⃣ Delete Student
+
+6️⃣ Result System
+
+- Calculate percentage
+- Assign Grade (A, B, C, Fail) using if-else
+
+---
+
+🔹 Bonus (Optional ⭐):
+
+- Show Topper Student
+- Count total students
+- Use ".count()" or ".find()" anywhere relevant
+
+---
+
+🔹 Instructions:
+
+✔ Code should be well-structured
+✔ Use comments for explanation
+✔ Proper input/output formatting
+
+---
+
+⏰ Deadline: 11-5-2026
+
+Make sure your program runs without errors. This assignment will test your overall understanding.
+
+Best of luck 💻🔥

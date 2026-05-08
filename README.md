@@ -23,10 +23,23 @@ This repository documents my hands-on learning of **Python** and **Data Science*
 ## 📚 Topics Covered
 
 - ✅ Python Basics (variables, data types, operators)
+- ✅ Operators
 - ✅ String Methods
-- ✅ Control Flow (if/else, loops)
+- ✅ Control Flow (if / elif / else)
+- ✅ Loops
+- ✅ Functions
+- ✅ Scope
 - ✅ Lists
-- Loading more... :)
+- ✅ Dictionaries
+- ✅ Decorators
+- ✅ Exception Handling (try / except)
+- ✅ File Handling
+- ✅ Random Number Generation
+- ✅ Quadratic Formula Programs
+- ✅ Games & Mini Projects
+- ✅ Assignments and Tasks (continue)
+- 🚀 FastAPI (in progress)
+- More coming soon... :)
 
 ---
 

@@ -1,4 +1,4 @@
-﻿# 🤖 AI & Data Science
+﻿# 🤖 AI ML & Data Science
 
 > A personal learning journey through Python, AI, ML and Data Science — organized from SMIT (Saylani Mass IT) coursework and personal learning.
 

@@ -1,0 +1,117 @@
+PYTHON FILE HANDLING PROJECT
+
+
+
+Build a complete 📚 Library Management System using Python.
+
+
+
+✅ Features Required:
+
+
+
+1. Add Book
+
+2. View All Books
+
+3. Search Book
+
+4. Update Book
+
+5. Delete Book
+
+6. Analyze Data
+
+7. Exit
+
+
+
+📂 File Name: books.txt
+
+
+
+📌 Book Record Must Contain:
+
+
+
+* Book ID
+
+* Book Name
+
+* Author Name
+
+* Price
+
+* Quantity
+
+* Status
+
+
+
+⚠️ Requirements:
+
+
+
+* ID must be unique
+
+* Quantity & Price cannot be negative
+
+* Status should auto-calculate:
+
+ • Available → quantity > 0
+
+ • Out of Stock → quantity = 0
+
+
+
+📊 Analysis Section Must Show:
+
+
+
+* Total Books
+
+* Average Price
+
+* Most Expensive Book
+
+* Cheapest Book
+
+* Available Books
+
+* Out of Stock Books
+
+
+
+🧠 Concepts You Must Use:
+
+✔ Functions
+
+✔ File Handling
+
+✔ Validation
+
+✔ Loops
+
+✔ Conditions
+
+✔ Exception Handling
+
+
+
+🔥 Bonus Challenge:
+
+Add Login System (admin / 1234)
+
+
+
+
+
+* .py file
+
+* books.txt
+
+
+
+
+
+Best of Luck 🚀

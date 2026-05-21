@@ -1,0 +1,10 @@
+10001,Atomic Habits,James Clear,1000.0,0,Out-Of-Stock
+10002,Deep Work,Cal Newport,850.0,5,In-Stock
+10003,Rich Dad Poor Dad,Robert Kiyosaki,700.0,3,In-Stock
+10004,The Psychology of Money,Morgan Housel,950.0,2,In-Stock
+10005,Think and Grow Rich,Napoleon Hill,600.0,0,Out-Of-Stock
+10006,The Alchemist,Paulo Coelho,650.0,4,In-Stock
+10007,Clean Code,Robert C. Martin,1200.0,1,In-Stock
+10008,Zero to One,Peter Thiel,900.0,6,In-Stock
+10009,The Power of Habit,Charles Duhigg,800.0,0,Out-Of-Stock
+10010,Start With Why,Simon Sinek,750.0,3,In-Stock

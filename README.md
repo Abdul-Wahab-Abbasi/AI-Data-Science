@@ -38,6 +38,8 @@ This repository documents my hands-on learning of **Python** and **Data Science*
 - ✅ Quadratic Formula Programs
 - ✅ Games & Mini Projects
 - ✅ Assignments and Tasks (continue)
+- 🚀 OOP (in progress)
+- 🚀 Numpy (in progress)
 - 🚀 FastAPI (in progress)
 - More coming soon... :)
 

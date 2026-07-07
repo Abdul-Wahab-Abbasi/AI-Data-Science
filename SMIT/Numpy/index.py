@@ -48,3 +48,5 @@ print(f"Second element of one dimensional array: {one_dimension_array[1]}")
 print(f"Second element of first array of two dimensional array: {two_dimension_array[0,1]}")
 print(f"Second element of second array of two dimensional array: {two_dimension_array[1,1]}")
 print(f"Second element of second array of third dimensional array: {three_dimension_array[1,1,1]}")
+
+

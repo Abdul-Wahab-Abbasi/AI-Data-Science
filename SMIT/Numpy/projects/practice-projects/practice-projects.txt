@@ -1,0 +1,118 @@
+*NUMPY PRACTICE PROJECTS* 🧮
+_3 projects to strengthen your NumPy skills_
+
+Assalam o Alaikum everyone 👋
+We've covered the NumPy basics in class (arrays, shape, reshape, sort, filter, concatenate, split, stack). Here are 3 small projects to practice what we learned.
+
+⚠️ *Important:* Do NOT use Python for-loops for the calculations. Use NumPy functions instead — that's the whole point of these projects.
+
+━━━━━━━━━━━━━━━━━━━━
+
+*PROJECT 1: STUDENT GRADEBOOK* 📊
+_Difficulty: Beginner_
+
+*Goal:*
+Build a report card system for 5 students across 4 subjects using a 2D array.
+
+*Your data:*
+```
+names = np.array(["Bilal","Hassan","Haroon","Wahaj","Ahmed"])
+subjects = np.array(["Math","English","Physics","Urdu"])
+marks = np.array([[76, 88, 65, 90],
+                  [91, 72, 84, 68],
+                  [25, 45, 38, 52],
+                  [45, 60, 70, 55],
+                  [16, 30, 42, 48]])
+```
+
+*Tasks:*
+1. Print the shape and dimensions of the marks array
+2. Total marks of each student (hint: axis=1)
+3. Average marks of each subject (hint: axis=0)
+4. Highest scorer in each subject — print the NAME, not the number
+5. Rank all students from highest to lowest total
+6. Show only the students who scored above 80 in Math
+7. Find students who failed (below 40) in ANY subject
+8. Give each student a grade: A (80+), B (60-79), C (40-59), F (below 40)
+
+*Functions to use:*
+`np.sum(axis=)` · `np.mean(axis=)` · `np.max()` · `np.argmax(axis=)` · `np.argsort()` · `np.where()` · boolean filtering `marks[marks > 80]` · `.any(axis=)` · fancy indexing `names[index]`
+
+*Bonus:*
+Print a clean report card table using `np.column_stack()`
+
+━━━━━━━━━━━━━━━━━━━━
+
+*PROJECT 2: MONTHLY SALES ANALYZER* 📈
+_Difficulty: Beginner to Intermediate_
+
+*Goal:*
+Analyze one year of sales data and find business insights.
+
+*Your data:*
+```
+months = np.array(["Jan","Feb","Mar","Apr","May","Jun",
+                   "Jul","Aug","Sep","Oct","Nov","Dec"])
+sales = np.array([4200, 3800, 5100, 4700, 6200, 5800,
+                  7100, 6900, 5400, 4900, 8200, 9100])
+```
+
+*Tasks:*
+1. Total sales, average sales, best month and worst month (print month NAME)
+2. Reshape the 12 months into 4 quarters (4 rows x 3 months)
+3. Total sales of each quarter — which quarter was best?
+4. Month-over-month growth (how much sales went up/down each month)
+5. Running total of sales through the year
+6. Which months performed ABOVE the yearly average?
+7. Each month's contribution as a percentage of total sales
+8. Split the year into 2 halves and compare their totals
+
+*Functions to use:*
+`np.sum()` · `np.mean()` · `np.max()` / `np.min()` · `np.argmax()` / `np.argmin()` · `np.reshape()` · `np.diff()` · `np.cumsum()` · `np.array_split()` · `np.round()` · boolean filtering · `np.where()`
+
+*Bonus:*
+Use `np.random.randint(1000, 9000, size=12)` to generate random sales and re-run your analysis. It should work without changing any code!
+
+━━━━━━━━━━━━━━━━━━━━
+
+*PROJECT 3: IMAGE / GRID PLAYGROUND* 🎨
+_Difficulty: Intermediate (most fun one)_
+
+*Goal:*
+An image is just a 2D array of numbers. Build one from scratch and edit it — this is exactly how real image processing works.
+
+*Your data:*
+```
+img = np.zeros((8, 8), dtype=int)   # 8x8 black image
+```
+
+*Tasks:*
+1. Draw a white border around the image (set first/last row and column to 255)
+2. Create a checkerboard pattern (hint: use slicing with a step like [::2])
+3. Make a diagonal line using np.eye()
+4. Crop the middle 4x4 region out of the image
+5. Flip the image upside down, then left to right
+6. Rotate the image by 90 degrees
+7. Invert the colors (255 - img)
+8. Stack 3 different 2D arrays into one (8, 8, 3) RGB image and print its shape
+
+*Functions to use:*
+`np.zeros()` · `np.ones()` · `np.eye()` · slicing `img[0, :]` and `img[::2, ::2]` · slice assignment `img[0, :] = 255` · `np.flipud()` / `np.fliplr()` · `np.rot90()` · `np.stack(axis=2)` · `.shape`
+
+*Bonus:*
+Print your image with `plt.imshow(img, cmap='gray')` from matplotlib and actually SEE it!
+
+━━━━━━━━━━━━━━━━━━━━
+
+*SUBMISSION RULES* ✅
+• One .py file per project
+• Add comments explaining what each line does
+• No for-loops for calculations — use NumPy
+• Print your output clearly with labels
+
+*TIPS* 💡
+• Stuck on axis? Remember: *axis=0 works down the columns*, *axis=1 works across the rows*
+• `argsort`/`argmax` give you INDEX positions, not values — use those indexes on the names array
+• Use `&` and `|` for multiple conditions (not `and`/`or`), and wrap each condition in its own brackets: `arr[(arr > 10) & (arr < 50)]`
+
+Start with Project 1 — it builds on our class tasks. Good luck! 🚀

@@ -1,0 +1,39 @@
+Class Task : Bank Transaction Logger
+
+Scenario
+Build a mini logging + security system for bank transactions using decorators and closures.
+
+Part 1 – Scope Practice
+
+1️⃣ Create a global variable total_balance = 0
+2️⃣ Write deposit(amount) and withdraw(amount) functions that modify total_balance using the global keyword
+3️⃣ Write make_counter() — a closure that returns an inner function which counts how many transactions have happened so far (use nonlocal, no global variable)
+
+
+Part 2 – Decorators
+
+4️⃣ Write a decorator @log_transaction that wraps any transaction function and prints the function name, arguments passed, and the result — before and after calling it
+5️⃣ Write a decorator @require_positive_amount that checks if the amount passed is positive; if not, it blocks the function from running and prints an error instead
+6️⃣ Apply both decorators together (stacked) on deposit() and withdraw() — order matters, so decide which should run first and why
+
+
+
+Part 3 – Wrapper with args/kwargs
+
+7️⃣ Write a generic decorator @track_calls that works on ANY function (not just deposit/withdraw) using *args, **kwargs in the wrapper, and keeps count of how many times that specific function has been called (use closure, not global)
+
+
+
+Part 4 – Bonus (harder)
+
+8️⃣ Write a decorator @timer that measures and prints how long a function takes to run (use time module)
+9️⃣ Stack all decorators together on one function: @timer, @log_transaction, @require_positive_amount — test if the order changes the output, explain why in a comment
+
+
+
+Part 5 – Main Program
+
+🔹 Simulate 5-6 transactions (mix of valid/invalid amounts) using deposit/withdraw
+🔹 Print final total_balance
+🔹 Print total transaction count from the closure counter
+🔹 Print how many times deposit vs withdraw was called using track_calls
